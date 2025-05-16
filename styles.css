@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+
+function delay(ms)
+{
+	return new Promise(resolve=>setTimeOut(resolve,ms))
+}
+async function process
